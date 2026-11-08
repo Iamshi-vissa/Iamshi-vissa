@@ -1,12 +1,10 @@
 <div align="center">
 
   <a href="https://github.com/Iamshi-vissa">
-    <img src="hero-panel.jpg" alt="Manga panel banner for Vamshi" width="100%" />
+    <img src="banner.jpg" alt="Banner for Vamshi" width="100%" />
   </a>
 
-  <br /><br />
-
-  <img src="profile.jpg" alt="Vamshi profile picture" width="180" />
+  <br />
 
   <h1>Vamshi</h1>
   <p><strong>SOFTWARE DEVELOPER</strong><br />Training models · designing digital assets · shipping software</p>
@@ -22,7 +20,7 @@
   <br /><br />
 
   <a href="https://github.com/Iamshi-vissa"><img src="https://img.shields.io/badge/GitHub-000000?style=flat-square&logo=github&logoColor=FFFFFF" alt="GitHub" /></a>
-  <a href="https://www.linkedin.com/in/vamshi-bharath-3a1a4b348/"><img src="https://img.shields.io/badge/LinkedIn-000000?style=flat-square&logo=linkedin&logoColor=FFFFFF" alt="LinkedIn" /></a>
+  <a href="https://www.linkedin.com/in/vamshi-bharath-3a1a4b348/"><img src="https://img.shields.io/badge/LinkedIn-000000?style=flat-square&logo=data%3Aimage%2Fsvg%2Bxml%3Bbase64%2CPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI%2BPHJlY3Qgd2lkdGg9IjI0IiBoZWlnaHQ9IjI0IiByeD0iMyIgZmlsbD0iI0ZGRiIvPjxyZWN0IHg9IjUiIHk9IjkuNSIgd2lkdGg9IjMiIGhlaWdodD0iOS41IiBmaWxsPSIjMDAwIi8%2BPGNpcmNsZSBjeD0iNi41IiBjeT0iNi4zIiByPSIxLjgiIGZpbGw9IiMwMDAiLz48cGF0aCBkPSJNMTAgOS41aDIuOXYxLjRjLjUtLjkgMS42LTEuNiAzLjEtMS42IDIuNiAwIDMuNSAxLjYgMy41IDQuM1YxOWgtM3YtNC44YzAtMS4zLS4zLTIuMi0xLjUtMi4ycy0yIC45LTIgMi4zVjE5aC0zeiIgZmlsbD0iIzAwMCIvPjwvc3ZnPg%3D%3D" alt="LinkedIn" /></a>
   <a href="mailto:iamshi725@gmail.com"><img src="https://img.shields.io/badge/Email-000000?style=flat-square&logo=gmail&logoColor=FFFFFF" alt="Email" /></a>
 
 </div>
@@ -154,10 +152,10 @@ I build complete products — **Python services** behind **TypeScript interfaces
 
 <br />
 
-## `04` // GitHub pulse
+## `04` // Contents
 
 <div align="center">
-  <img src="maple.svg" width="100%" alt="Autumn leaves — a maple tree where each leaf is a day of contributions" />
+  <img src="contents.svg" width="100%" alt="Contents, volume 01: every public repo is a chapter, one page per commit" />
 </div>
 
 <br />
@@ -183,7 +181,7 @@ I build complete products — **Python services** behind **TypeScript interfaces
 
 <div align="center">
   <a href="https://github.com/Iamshi-vissa?tab=repositories"><img src="https://img.shields.io/badge/Explore%20my%20GitHub-000000?style=flat-square&logo=github&logoColor=FFFFFF" alt="Explore my GitHub" /></a>
-  <a href="https://www.linkedin.com/in/vamshi-bharath-3a1a4b348/"><img src="https://img.shields.io/badge/Let%27s%20connect-000000?style=flat-square&logo=linkedin&logoColor=FFFFFF" alt="Let&#x27;s connect" /></a>
+  <a href="https://www.linkedin.com/in/vamshi-bharath-3a1a4b348/"><img src="https://img.shields.io/badge/Let%27s%20connect-000000?style=flat-square&logo=data%3Aimage%2Fsvg%2Bxml%3Bbase64%2CPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI%2BPHJlY3Qgd2lkdGg9IjI0IiBoZWlnaHQ9IjI0IiByeD0iMyIgZmlsbD0iI0ZGRiIvPjxyZWN0IHg9IjUiIHk9IjkuNSIgd2lkdGg9IjMiIGhlaWdodD0iOS41IiBmaWxsPSIjMDAwIi8%2BPGNpcmNsZSBjeD0iNi41IiBjeT0iNi4zIiByPSIxLjgiIGZpbGw9IiMwMDAiLz48cGF0aCBkPSJNMTAgOS41aDIuOXYxLjRjLjUtLjkgMS42LTEuNiAzLjEtMS42IDIuNiAwIDMuNSAxLjYgMy41IDQuM1YxOWgtM3YtNC44YzAtMS4zLS4zLTIuMi0xLjUtMi4ycy0yIC45LTIgMi4zVjE5aC0zeiIgZmlsbD0iIzAwMCIvPjwvc3ZnPg%3D%3D" alt="Let&#x27;s connect" /></a>
   <a href="mailto:iamshi725@gmail.com"><img src="https://img.shields.io/badge/Say%20hello-000000?style=flat-square&logo=gmail&logoColor=FFFFFF" alt="Say hello" /></a>
 </div>
 

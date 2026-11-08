@@ -65,9 +65,16 @@ def wave():
                ".w{animation:w 6s ease-in-out infinite alternate}@keyframes w{to{transform:translateX(-40px)}}")
 
 
+import base64
+LI_MARK = ('<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><rect width="24" height="24" rx="3" fill="#FFF"/>'
+           '<rect x="5" y="9.5" width="3" height="9.5" fill="#000"/><circle cx="6.5" cy="6.3" r="1.8" fill="#000"/>'
+           '<path d="M10 9.5h2.9v1.4c.5-.9 1.6-1.6 3.1-1.6 2.6 0 3.5 1.6 3.5 4.3V19h-3v-4.8c0-1.3-.3-2.2-1.5-2.2s-2 .9-2 2.3V19h-3z" fill="#000"/></svg>')
+LI_LOGO = "data:image/svg+xml;base64," + base64.b64encode(LI_MARK.encode()).decode()
+
+
 def badge(label, logo="", url=""):
     img = (f'<img src="https://img.shields.io/badge/{quote(label).replace("-", "--")}-000000?style=flat-square'
-           f'{"&logo=" + logo + "&logoColor=FFFFFF" if logo else ""}" alt="{e(label)}" />')
+           f'{("&logo=" + quote(LI_LOGO, safe="") if logo == "linkedin" else "&logo=" + logo + "&logoColor=FFFFFF") if logo else ""}" alt="{e(label)}" />')
     return f'<a href="{url}">{img}</a>' if url else img
 
 
@@ -99,12 +106,10 @@ def readme():
     return f"""<div align="center">
 
   <a href="{gh}">
-    <img src="hero-panel.jpg" alt="Manga panel banner for {NAME}" width="100%" />
+    <img src="banner.jpg" alt="Banner for {NAME}" width="100%" />
   </a>
 
-  <br /><br />
-
-  <img src="profile.jpg" alt="{NAME} profile picture" width="180" />
+  <br />
 
   <h1>{NAME}</h1>
   <p><strong>{ROLE}</strong><br />{SUB}</p>
@@ -208,10 +213,10 @@ I build complete products — **Python services** behind **TypeScript interfaces
 
 <br />
 
-## `04` // GitHub pulse
+## `04` // Contents
 
 <div align="center">
-  <img src="maple.svg" width="100%" alt="Autumn leaves — a maple tree where each leaf is a day of contributions" />
+  <img src="contents.svg" width="100%" alt="Contents, volume 01: every public repo is a chapter, one page per commit" />
 </div>
 
 <br />
