@@ -7,7 +7,7 @@
   <br />
 
   <h1>Vamshi</h1>
-  <p><strong>SOFTWARE DEVELOPER</strong><br />Training models · designing digital assets · shipping software</p>
+  <p><strong>SOFTWARE DEVELOPER</strong><br />Training models · designing digital assets · building software</p>
 
   <br />
 
@@ -33,27 +33,34 @@
 
 ## `01` // The character
 
-I build complete products — **Python services** behind **TypeScript interfaces**, and desktop apps in **Rust** or **Electron** when the browser isn't enough. Lately my work leans into **ML on real data** and **pipelines that stay safe with untrusted input**.
+I train models, design digital assets, and write the software that puts both in front of people.
 
 <table>
-  <tr>
-    <td width="33%" align="center">
-      <strong>◇ FULL-STACK</strong><br /><br />
-      FastAPI services, Redis workers,<br />Postgres &amp; React frontends.
-    </td>
-    <td width="33%" align="center">
-      <strong>// ML &amp; DATA</strong><br /><br />
-      Risk models on git history,<br />retrieval over documents.
-    </td>
-    <td width="33%" align="center">
-      <strong>+ DESKTOP &amp; TOOLS</strong><br /><br />
-      Rust/Tauri IDE, Electron apps,<br />CLIs &amp; git hooks.
-    </td>
-  </tr>
+  <thead>
+    <tr>
+      <th width="22%">Skill</th>
+      <th>What I do</th>
+      <th width="22%">Where to see it</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>Training models</strong></td>
+      <td>Gradient-boosted models on real-world data, embeddings and retrieval, and the evaluation work that tells you whether a model is actually right.</td>
+      <td><a href="https://github.com/Iamshi-vissa/CommitRad">CommitRad</a> · <a href="https://github.com/Iamshi-vissa/Docent">Docent</a></td>
+    </tr>
+    <tr>
+      <td><strong>Designing digital assets</strong></td>
+      <td>Visual assets, interfaces and motion, designed together with the product rather than added at the end.</td>
+      <td><a href="https://github.com/Iamshi-vissa/Shashin">Shashin</a> · <a href="https://github.com/Iamshi-vissa/CoKo">CoKo</a></td>
+    </tr>
+    <tr>
+      <td><strong>Software development</strong></td>
+      <td>End-to-end products: Python services, TypeScript frontends, and native desktop apps in Rust and Electron.</td>
+      <td><a href="https://github.com/Iamshi-vissa/X-Editor">X-Editor</a> · <a href="https://github.com/Iamshi-vissa/Hakobu">Hakobu</a></td>
+    </tr>
+  </tbody>
 </table>
-
-> **CURRENT ARC**<br />
-> Shipping CommitRad, Hakobu and AKSHARA — one careful layer at a time.
 
 <br />
 
@@ -85,99 +92,35 @@ I build complete products — **Python services** behind **TypeScript interfaces
   </thead>
   <tbody>
     <tr>
+      <td><strong>Model</strong></td>
+      <td>LightGBM · pandas · FAISS · sentence-transformers · OpenCV · DuckDB</td>
+    </tr>
+    <tr>
+      <td><strong>Design</strong></td>
+      <td>Visual assets · interfaces · motion</td>
+    </tr>
+    <tr>
       <td><strong>Build</strong></td>
       <td>Python · FastAPI · TypeScript · React · Next.js · Vite</td>
     </tr>
     <tr>
-      <td><strong>Store &amp; run</strong></td>
-      <td>PostgreSQL · Supabase · Redis / RQ · DuckDB · Docker</td>
-    </tr>
-    <tr>
-      <td><strong>Model</strong></td>
-      <td>LightGBM · pandas · FAISS · sentence-transformers · OpenCV</td>
-    </tr>
-    <tr>
-      <td><strong>Ship native</strong></td>
-      <td>Rust · Tauri v2 · Electron · Monaco</td>
+      <td><strong>Ship</strong></td>
+      <td>Rust · Tauri v2 · Electron · PostgreSQL · Redis · Docker</td>
     </tr>
   </tbody>
 </table>
 
 <br />
 
-## `03` // Story arcs
-
-<table>
-  <thead>
-    <tr>
-      <th>Project</th>
-      <th>What it does</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><a href="https://github.com/Iamshi-vissa/CommitRad"><strong>CommitRad</strong></a></td>
-      <td>Scores every commit — even unpushed ones — for the risk it needs a bug fix, and says why. LightGBM trained on 27,384 commits.<br /><sub><code>Python · LightGBM · DuckDB · FastAPI · React</code></sub></td>
-    </tr>
-    <tr>
-      <td><a href="https://github.com/Iamshi-vissa/Hakobu"><strong>Hakobu</strong></a></td>
-      <td>Universal file converter: detects a file's real type from its bytes. ~50 formats, 800+ paths, sandboxed workers.<br /><sub><code>FastAPI · Redis/RQ · Next.js · Docker</code></sub></td>
-    </tr>
-    <tr>
-      <td><a href="https://github.com/Iamshi-vissa/AKSHARA"><strong>AKSHARA</strong></a></td>
-      <td>Document engineering platform to create, inspect and validate DOCX, PDF and PPTX, with immutable versioned storage.<br /><sub><code>FastAPI · PostgreSQL · Redis · React</code></sub></td>
-    </tr>
-    <tr>
-      <td><a href="https://github.com/Iamshi-vissa/X-Editor"><strong>X-Editor</strong></a></td>
-      <td>Local-first desktop IDE with built-in runtime management for Node, Python and Rust.<br /><sub><code>Rust · Tauri v2 · React · Monaco</code></sub></td>
-    </tr>
-    <tr>
-      <td><a href="https://github.com/Iamshi-vissa/Docent"><strong>Docent</strong></a></td>
-      <td>Multi-document Q&amp;A that answers only from your files, citing file and page.<br /><sub><code>Python · FAISS · FastAPI · Next.js</code></sub></td>
-    </tr>
-    <tr>
-      <td><a href="https://github.com/Iamshi-vissa/Shashin"><strong>Shashin</strong></a></td>
-      <td>A private photo diary — one photo a day, visible only to friends, collected into weekly albums.<br /><sub><code>React · TypeScript · Supabase</code></sub></td>
-    </tr>
-    <tr>
-      <td><a href="https://github.com/Iamshi-vissa/X-WALL"><strong>X-WALL</strong></a></td>
-      <td>Scam QR-code and payment-link analyzer: see where a code really sends you before you pay.<br /><sub><code>FastAPI · OpenCV · React</code></sub></td>
-    </tr>
-    <tr>
-      <td><a href="https://github.com/Iamshi-vissa/CoKo"><strong>CoKo</strong></a></td>
-      <td>An animated desk buddy that tracks your sessions, focus and battery — and reacts to them.<br /><sub><code>Electron · JavaScript</code></sub></td>
-    </tr>
-  </tbody>
-</table>
-
-<br />
-
-## `04` // Contents
+## `03` // Autumn moon
 
 <div align="center">
-  <img src="contents.svg" width="100%" alt="Contents, volume 01: every public repo is a chapter, one page per commit" />
+  <img src="moon.svg" width="100%" alt="Autumn moon: the moon waxes with my current commit streak and is full only when it matches my longest" />
 </div>
 
 <br />
 
-## `05` // Behind the panels
-
-<details>
-<summary>✦ A few things I enjoy making</summary>
-
-- Tools that read the signals already sitting in your data — like risk hiding in git history.
-- Pipelines that treat every input as untrusted and still feel instant.
-- Desktop apps that feel native, not like a web page in a frame.
-- Small companions and diaries that make a day a little nicer.
-
-</details>
-
-> **CREDO**<br />
-> Every bug is a plot twist. Every fix is a new chapter.
-
-<br />
-
-## `06` // Next page
+## `04` // Next page
 
 <div align="center">
   <a href="https://github.com/Iamshi-vissa?tab=repositories"><img src="https://img.shields.io/badge/Explore%20my%20GitHub-000000?style=flat-square&logo=github&logoColor=FFFFFF" alt="Explore my GitHub" /></a>

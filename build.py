@@ -13,7 +13,7 @@ RM = "@media (prefers-reduced-motion: reduce){*{animation:none!important}}"
 USER, NAME, EMAIL = "Iamshi-vissa", "Vamshi", "iamshi725@gmail.com"
 LINKEDIN = "https://www.linkedin.com/in/vamshi-bharath-3a1a4b348/"
 ROLE = "SOFTWARE DEVELOPER"
-SUB = "Training models · designing digital assets · shipping software"
+SUB = "Training models · designing digital assets · building software"
 TYPING = ["Teaching Machines · Designing Assets", "Loss Goes Down, Pixels Stay Sharp", "Software Developer · Code Meets Craft"]
 
 
@@ -138,27 +138,34 @@ def readme():
 
 ## `01` // The character
 
-I build complete products — **Python services** behind **TypeScript interfaces**, and desktop apps in **Rust** or **Electron** when the browser isn't enough. Lately my work leans into **ML on real data** and **pipelines that stay safe with untrusted input**.
+I train models, design digital assets, and write the software that puts both in front of people.
 
 <table>
-  <tr>
-    <td width="33%" align="center">
-      <strong>◇ FULL-STACK</strong><br /><br />
-      FastAPI services, Redis workers,<br />Postgres &amp; React frontends.
-    </td>
-    <td width="33%" align="center">
-      <strong>// ML &amp; DATA</strong><br /><br />
-      Risk models on git history,<br />retrieval over documents.
-    </td>
-    <td width="33%" align="center">
-      <strong>+ DESKTOP &amp; TOOLS</strong><br /><br />
-      Rust/Tauri IDE, Electron apps,<br />CLIs &amp; git hooks.
-    </td>
-  </tr>
+  <thead>
+    <tr>
+      <th width="22%">Skill</th>
+      <th>What I do</th>
+      <th width="22%">Where to see it</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>Training models</strong></td>
+      <td>Gradient-boosted models on real-world data, embeddings and retrieval, and the evaluation work that tells you whether a model is actually right.</td>
+      <td><a href="{gh}/CommitRad">CommitRad</a> · <a href="{gh}/Docent">Docent</a></td>
+    </tr>
+    <tr>
+      <td><strong>Designing digital assets</strong></td>
+      <td>Visual assets, interfaces and motion, designed together with the product rather than added at the end.</td>
+      <td><a href="{gh}/Shashin">Shashin</a> · <a href="{gh}/CoKo">CoKo</a></td>
+    </tr>
+    <tr>
+      <td><strong>Software development</strong></td>
+      <td>End-to-end products: Python services, TypeScript frontends, and native desktop apps in Rust and Electron.</td>
+      <td><a href="{gh}/X-Editor">X-Editor</a> · <a href="{gh}/Hakobu">Hakobu</a></td>
+    </tr>
+  </tbody>
 </table>
-
-> **CURRENT ARC**<br />
-> Shipping CommitRad, Hakobu and AKSHARA — one careful layer at a time.
 
 <br />
 
@@ -177,68 +184,35 @@ I build complete products — **Python services** behind **TypeScript interfaces
   </thead>
   <tbody>
     <tr>
+      <td><strong>Model</strong></td>
+      <td>LightGBM · pandas · FAISS · sentence-transformers · OpenCV · DuckDB</td>
+    </tr>
+    <tr>
+      <td><strong>Design</strong></td>
+      <td>Visual assets · interfaces · motion</td>
+    </tr>
+    <tr>
       <td><strong>Build</strong></td>
       <td>Python · FastAPI · TypeScript · React · Next.js · Vite</td>
     </tr>
     <tr>
-      <td><strong>Store &amp; run</strong></td>
-      <td>PostgreSQL · Supabase · Redis / RQ · DuckDB · Docker</td>
-    </tr>
-    <tr>
-      <td><strong>Model</strong></td>
-      <td>LightGBM · pandas · FAISS · sentence-transformers · OpenCV</td>
-    </tr>
-    <tr>
-      <td><strong>Ship native</strong></td>
-      <td>Rust · Tauri v2 · Electron · Monaco</td>
+      <td><strong>Ship</strong></td>
+      <td>Rust · Tauri v2 · Electron · PostgreSQL · Redis · Docker</td>
     </tr>
   </tbody>
 </table>
 
 <br />
 
-## `03` // Story arcs
-
-<table>
-  <thead>
-    <tr>
-      <th>Project</th>
-      <th>What it does</th>
-    </tr>
-  </thead>
-  <tbody>
-{arcs}
-  </tbody>
-</table>
-
-<br />
-
-## `04` // Contents
+## `03` // Autumn moon
 
 <div align="center">
-  <img src="contents.svg" width="100%" alt="Contents, volume 01: every public repo is a chapter, one page per commit" />
+  <img src="moon.svg" width="100%" alt="Autumn moon: the moon waxes with my current commit streak and is full only when it matches my longest" />
 </div>
 
 <br />
 
-## `05` // Behind the panels
-
-<details>
-<summary>✦ A few things I enjoy making</summary>
-
-- Tools that read the signals already sitting in your data — like risk hiding in git history.
-- Pipelines that treat every input as untrusted and still feel instant.
-- Desktop apps that feel native, not like a web page in a frame.
-- Small companions and diaries that make a day a little nicer.
-
-</details>
-
-> **CREDO**<br />
-> Every bug is a plot twist. Every fix is a new chapter.
-
-<br />
-
-## `06` // Next page
+## `04` // Next page
 
 <div align="center">
   {badge("Explore my GitHub", "github", gh + "?tab=repositories")}
