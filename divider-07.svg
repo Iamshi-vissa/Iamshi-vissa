@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="60" viewBox="0 0 1200 60" role="img" aria-label="07 · NEXT PAGE"><style>.d{stroke-dasharray:600;stroke-dashoffset:600;animation:d 1.2s ease-out forwards}@keyframes d{to{stroke-dashoffset:0}}@media (prefers-reduced-motion: reduce){*{animation:none!important}}</style><defs><linearGradient id="sh" gradientUnits="userSpaceOnUse" x1="301.0" x2="501.0" y1="0" y2="0">
+    <stop offset="0" stop-color="#888"/><stop offset=".5" stop-color="#fff"/><stop offset="1" stop-color="#888"/>
+    <animate attributeName="x1" values="301.0;699.0" dur="3s" repeatCount="indefinite"/>
+    <animate attributeName="x2" values="501.0;899.0" dur="3s" repeatCount="indefinite"/></linearGradient></defs>
+  <g stroke="#888" stroke-width="1.5">
+    <line class="d" x1="493.0" y1="30" x2="8" y2="30"/><line class="d" x1="707.0" y1="30" x2="1192" y2="30"/>
+    <path d="M8 24 L8 36 M1192 24 L1192 36"/></g>
+  <rect x="501.0" y="15" width="198" height="30" fill="none" stroke="#888" stroke-width="1.5"/>
+  <text x="600.0" y="35" text-anchor="middle" font-family="'IBM Plex Mono','SFMono-Regular',Consolas,'Liberation Mono',monospace" font-size="14" font-weight="700" letter-spacing="3" fill="url(#sh)">07 · NEXT PAGE</text></svg>

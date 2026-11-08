@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="340" viewBox="0 0 1200 340" role="img" aria-label="Coding, problem solving and designing"><style>.dr{stroke-dasharray:400;stroke-dashoffset:400;animation:dr 1.6s ease-out forwards}@keyframes dr{to{stroke-dashoffset:0}}.st{animation:st 4.5s linear infinite}@keyframes st{to{stroke-dashoffset:-1320}}.sp{animation:sp 7s ease-in-out infinite alternate}@keyframes sp{from{transform:translate(-120px,-60px)}to{transform:translate(160px,90px)}}.up{animation:up .7s ease-out both}@keyframes up{from{opacity:0;transform:translateY(16px)}to{opacity:1;transform:none}}@media (prefers-reduced-motion: reduce){*{animation:none!important}}</style><defs>
+    <radialGradient id="spot"><stop offset="0" stop-color="#fff" stop-opacity=".13"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></radialGradient>
+    <linearGradient id="star"><stop offset="0" stop-color="#fff" stop-opacity="0"/><stop offset=".5" stop-color="#fff"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></linearGradient></defs>
+  <rect width="1200" height="340" fill="#0A0A0A"/>
+  <g font-family="'IBM Plex Mono','SFMono-Regular',Consolas,'Liberation Mono',monospace"><g class="up" style="animation-delay:0.00s">
+      <clipPath id="c0"><rect x="24.0" y="24" width="368" height="292"/></clipPath>
+      <rect x="24.0" y="24" width="368" height="292" fill="#111"/>
+      <g clip-path="url(#c0)"><circle class="sp" style="animation-delay:-0.0s" cx="208" cy="170" r="170" fill="url(#spot)"/></g>
+      <rect x="24.0" y="24" width="368" height="292" fill="none" stroke="#4D4D4D" stroke-width="1.5"/>
+      <rect class="st" style="animation-delay:-0.0s" x="24.0" y="24" width="368" height="292" fill="none" stroke="url(#star)" stroke-width="2.5" stroke-dasharray="90 1230" stroke-linecap="round"/>
+      <text x="52.0" y="64" font-size="12" letter-spacing="3" fill="#9A9A9A">01 / SOLID LINE</text>
+      <g transform="translate(48.0 80)" fill="none" stroke="#FAFAFA" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round">
+        <path class="dr" style="animation-delay:0.40s" d="M40 30 L14 54 L40 78 M88 30 L114 54 L88 78 M74 22 L54 86"/></g>
+      <text x="52.0" y="212" font-family="Georgia,'Times New Roman',serif" font-size="28" font-weight="600" fill="#FAFAFA">Coding</text>
+      <text x="52.0" y="250" font-size="15" fill="#9A9A9A">Readable, tested code.</text><text x="52.0" y="274" font-size="15" fill="#9A9A9A">Frontend to backend,</text><text x="52.0" y="298" font-size="15" fill="#9A9A9A">built to be maintained.</text></g><g class="up" style="animation-delay:0.25s">
+      <clipPath id="c1"><rect x="416.0" y="24" width="368" height="292"/></clipPath>
+      <rect x="416.0" y="24" width="368" height="292" fill="#111"/>
+      <g clip-path="url(#c1)"><circle class="sp" style="animation-delay:-2.3s" cx="600" cy="170" r="170" fill="url(#spot)"/></g>
+      <rect x="416.0" y="24" width="368" height="292" fill="none" stroke="#4D4D4D" stroke-width="1.5" stroke-dasharray="8 6"/>
+      <rect class="st" style="animation-delay:-1.5s" x="416.0" y="24" width="368" height="292" fill="none" stroke="url(#star)" stroke-width="2.5" stroke-dasharray="90 1230" stroke-linecap="round"/>
+      <text x="444.0" y="64" font-size="12" letter-spacing="3" fill="#9A9A9A">02 / DASHED LINE</text>
+      <g transform="translate(440.0 80)" fill="none" stroke="#FAFAFA" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round">
+        <path class="dr" style="animation-delay:0.65s" d="M20 80 L50 40 L80 64 L110 24 M20 80 m-6 0 a6 6 0 1 0 12 0 a6 6 0 1 0 -12 0 M50 40 m-6 0 a6 6 0 1 0 12 0 a6 6 0 1 0 -12 0 M80 64 m-6 0 a6 6 0 1 0 12 0 a6 6 0 1 0 -12 0 M110 24 m-6 0 a6 6 0 1 0 12 0 a6 6 0 1 0 -12 0"/></g>
+      <text x="444.0" y="212" font-family="Georgia,'Times New Roman',serif" font-size="28" font-weight="600" fill="#FAFAFA">Problem Solving</text>
+      <text x="444.0" y="250" font-size="15" fill="#9A9A9A">DSA, logic &amp; debugging.</text><text x="444.0" y="274" font-size="15" fill="#9A9A9A">Break it down, find the</text><text x="444.0" y="298" font-size="15" fill="#9A9A9A">pattern, ship the fix.</text></g><g class="up" style="animation-delay:0.50s">
+      <clipPath id="c2"><rect x="808.0" y="24" width="368" height="292"/></clipPath>
+      <rect x="808.0" y="24" width="368" height="292" fill="#111"/>
+      <g clip-path="url(#c2)"><circle class="sp" style="animation-delay:-4.6s" cx="992" cy="170" r="170" fill="url(#spot)"/></g>
+      <rect x="808.0" y="24" width="368" height="292" fill="none" stroke="#4D4D4D" stroke-width="1.5"/><rect x="813.0" y="29" width="358" height="282" fill="none" stroke="#4D4D4D" stroke-width="1"/>
+      <rect class="st" style="animation-delay:-3.0s" x="808.0" y="24" width="368" height="292" fill="none" stroke="url(#star)" stroke-width="2.5" stroke-dasharray="90 1230" stroke-linecap="round"/>
+      <text x="836.0" y="64" font-size="12" letter-spacing="3" fill="#9A9A9A">03 / DOUBLE LINE</text>
+      <g transform="translate(832.0 80)" fill="none" stroke="#FAFAFA" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round">
+        <path class="dr" style="animation-delay:0.90s" d="M16 84 C 40 10, 86 10, 112 70 M16 84 L40 26 M112 70 L96 22 M40 26 m-5 -5 h10 v10 h-10 z M96 22 m-5 -5 h10 v10 h-10 z"/></g>
+      <text x="836.0" y="212" font-family="Georgia,'Times New Roman',serif" font-size="28" font-weight="600" fill="#FAFAFA">Designing</text>
+      <text x="836.0" y="250" font-size="15" fill="#9A9A9A">Interfaces with intent.</text><text x="836.0" y="274" font-size="15" fill="#9A9A9A">Layout, type &amp; motion</text><text x="836.0" y="298" font-size="15" fill="#9A9A9A">that feel considered.</text></g></g></svg>

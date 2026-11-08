@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="590" height="270" viewBox="0 0 590 270" role="img" aria-label="Docent — Multi-document Q&amp;A that answers only from your files, with citations down to file and page."><style>.dr{animation:dr 1.4s ease-out 0.25s forwards}@keyframes dr{to{stroke-dashoffset:0}}.up{animation:up .7s ease-out both}@keyframes up{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:none}}@media (prefers-reduced-motion: reduce){*{animation:none!important}}</style><rect x="2" y="2" width="586" height="266" fill="#111111"/>
+  <rect class="dr" x="2" y="2" width="586" height="266" fill="none" stroke="#4D4D4D" stroke-width="1.5" stroke-dasharray="1704" stroke-dashoffset="1704"/>
+  <g class="up" font-family="'IBM Plex Mono','SFMono-Regular',Consolas,'Liberation Mono',monospace">
+    <text x="26" y="38" font-size="11.5" letter-spacing="3" fill="#9A9A9A">05 / AI · RAG</text>
+    <text x="564" y="38" text-anchor="end" font-size="16" fill="#9A9A9A">↗</text>
+    <text x="26" y="80" font-family="Georgia,'Times New Roman',serif" font-size="32" font-weight="600" fill="#FAFAFA">Docent</text>
+    <text x="26" y="114" font-size="14" fill="#FAFAFA">Multi-document Q&amp;A that answers only from your</text>
+    <text x="26" y="135" font-size="14" fill="#FAFAFA">files, with citations down to file and page.</text>
+    <text x="26" y="168" font-size="12.5" fill="#9A9A9A">— Local MiniLM embeddings + FAISS retrieval</text>
+    <text x="26" y="189" font-size="12.5" fill="#9A9A9A">— Next.js studio + Streamlit over a FastAPI API</text>
+    <rect x="26" y="216" width="67" height="26" fill="none" stroke="#4D4D4D"/><text x="36" y="233" font-size="13" fill="#FAFAFA">Python</text><rect x="101" y="216" width="59" height="26" fill="none" stroke="#4D4D4D"/><text x="111" y="233" font-size="13" fill="#FAFAFA">FAISS</text><rect x="168" y="216" width="75" height="26" fill="none" stroke="#4D4D4D"/><text x="178" y="233" font-size="13" fill="#FAFAFA">FastAPI</text><rect x="250" y="216" width="75" height="26" fill="none" stroke="#4D4D4D"/><text x="260" y="233" font-size="13" fill="#FAFAFA">Next.js</text><rect x="333" y="216" width="90" height="26" fill="none" stroke="#4D4D4D"/><text x="343" y="233" font-size="13" fill="#FAFAFA">Streamlit</text>
+  </g></svg>

@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="310" height="60" viewBox="0 0 310 60" role="img" aria-label="iamshi725@gmail.com"><style>.s{animation:s 4s linear infinite}@keyframes s{to{stroke-dashoffset:-724}}@media (prefers-reduced-motion: reduce){*{animation:none!important}}</style><defs><linearGradient id="g"><stop offset="0" stop-color="#fff" stop-opacity="0"/><stop offset=".5" stop-color="#fff"/>
+    <stop offset="1" stop-color="#fff" stop-opacity="0"/></linearGradient></defs>
+  <rect x="2" y="2" width="306" height="56" fill="#0A0A0A" stroke="#4D4D4D" stroke-width="1.5"/>
+  <rect class="s" x="2" y="2" width="306" height="56" fill="none" stroke="url(#g)" stroke-width="2.5" stroke-dasharray="70 654"/>
+  <g transform="translate(26 18)"><path d="M24 5.457v13.909c0 .904-.732 1.636-1.636 1.636h-3.819V11.73L12 16.64l-6.545-4.91v9.273H1.636A1.636 1.636 0 0 1 0 19.366V5.457c0-2.023 2.309-3.178 3.927-1.964L5.455 4.64 12 9.548l6.545-4.91 1.528-1.145C21.69 2.28 24 3.434 24 5.457z" fill="#FAFAFA"/></g>
+  <text x="62" y="36" font-family="'IBM Plex Mono','SFMono-Regular',Consolas,'Liberation Mono',monospace" font-size="15" font-weight="700" fill="#FAFAFA">iamshi725@gmail.com</text>
+  <text x="284" y="36" text-anchor="end" font-family="'IBM Plex Mono','SFMono-Regular',Consolas,'Liberation Mono',monospace" font-size="16" fill="#9A9A9A">→</text></svg>
