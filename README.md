@@ -1,12 +1,12 @@
-<img src="assets/header.svg" alt="Yoi! I am Vamshi" height="66">
+<img src="assets/header.svg" alt="Yoi! I am Vamshi" height="63">
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/about-dark.svg">
-  <img src="assets/about-light.svg" alt="AI-assisted CS engineer. Design digital components, interfaces and assets. Build desktop applications with Rust, Tauri and React. Train and ship machine learning models into real tools. Work comfortably in Linux environments. Use AI tools to build faster, from idea to working app." width="466">
+  <img src="assets/about-light.svg" alt="AI-assisted CS engineer. Design: UI components, interfaces and digital assets. Desktop apps: Rust, Tauri and React. Machine learning: training and shipping models. Linux: Ubuntu and Mint. AI tools: from idea to working app, faster." width="496">
 </picture>
 
 <p align="center">
-  <a href="https://github.com/Iamshi-vissa?tab=repositories"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/explore-dark.svg"><img src="assets/explore-light.svg" alt="Explore repositories" height="52"></picture></a>
+  <a href="https://github.com/Iamshi-vissa?tab=repositories"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/explore-dark.svg"><img src="assets/explore-light.svg" alt="Explore repositories" height="34"></picture></a>
 </p>
 
 <p align="center">
