@@ -1,13 +1,5 @@
 #!/usr/bin/env python3
-"""
-Autumn moon — writes moon.svg from your GitHub contribution calendar.
-
-The moon waxes with your current commit streak, measured against your longest
-streak of the year: a sliver after a day or two, full on the day you match your best.
-Miss a day and it goes back to a new moon.
-
-Run by .github/workflows/profile-stats.yml.  Local test:  python3 moon_gen.py --mock
-"""
+"""Writes moon.svg from the contribution calendar. Test locally: python3 moon_gen.py --mock 5 9"""
 import datetime as dt
 import json
 import os
@@ -109,7 +101,6 @@ def stars():
 
 
 def cloud(y, x0, w, delay, dur):
-    # a thin horizontal wisp, drawn as two offset strokes
     return (f'<g class="cl" style="animation-delay:-{delay}s;animation-duration:{dur}s">'
             f'<path d="M{x0} {y} h{w}" stroke="{NIGHT}" stroke-width="9" stroke-linecap="round"/>'
             f'<path d="M{x0} {y} h{w}" stroke="{PAPER}" stroke-opacity=".5" stroke-width="1.2" stroke-linecap="round"/>'
@@ -127,7 +118,6 @@ def build(days, user="Iamshi-vissa"):
     moon = (f'<circle cx="{CX}" cy="{CY}" r="{R+26}" fill="url(#halo)" opacity="{.25 + .6*f:.2f}"/>'
             f'<circle cx="{CX}" cy="{CY}" r="{R}" fill="url(#tone)" stroke="{PAPER}" stroke-opacity=".35" stroke-width="1"/>'
             + (f'<path class="lit" d="{lit}" fill="{PAPER}"/>' if lit else "") +
-            # a few soft maria, only where the moon is lit
             f'<g clip-path="url(#litC)" fill="{FAINT}" fill-opacity=".35">'
             f'<circle cx="{CX+28}" cy="{CY-26}" r="20"/><circle cx="{CX+48}" cy="{CY+18}" r="13"/>'
             f'<circle cx="{CX-10}" cy="{CY+34}" r="16"/><circle cx="{CX-38}" cy="{CY-12}" r="11"/></g>')
@@ -143,16 +133,13 @@ def build(days, user="Iamshi-vissa"):
     text = (f'<text x="{tx}" y="{PY+22}" font-size="12" letter-spacing="4" fill="{SOFT}">AUTUMN MOON</text>'
             f'<text x="{tx-2}" y="{PY+76}" font-size="40" font-weight="200" fill="{INK}">{name.title()}</text>'
             f'<rect class="rule" x="{tx}" y="{PY+96}" width="90" height="2" fill="{RED}"/>'
-            # figures
             f'<text x="{tx}" y="{PY+150}" font-size="12" letter-spacing="3" fill="{SOFT}">CURRENT STREAK</text>'
             f'<text x="{tx}" y="{PY+190}" font-size="36" font-weight="200" fill="{INK}">{cur}<tspan font-size="15" fill="{SOFT}"> {"day" if cur == 1 else "days"}</tspan></text>'
             f'<text x="{tx+190}" y="{PY+150}" font-size="12" letter-spacing="3" fill="{SOFT}">LONGEST</text>'
             f'<text x="{tx+190}" y="{PY+190}" font-size="36" font-weight="200" fill="{INK}">{best}<tspan font-size="15" fill="{SOFT}"> {"day" if best == 1 else "days"}</tspan></text>'
-            # phase bar
             f'<rect x="{tx}" y="{PY+222}" width="320" height="3" fill="{FAINT}" fill-opacity=".5"/>'
             f'<rect class="bar" x="{tx}" y="{PY+222}" width="{320*f:.0f}" height="3" fill="{INK}"/>'
             f'<text x="{tx}" y="{PY+248}" font-size="11.5" letter-spacing="2" fill="{SOFT}">{pct}% LIT</text>'
-            # the quiet line
             f'<text x="{tx}" y="{PY+PH-34}" font-size="15" font-weight="300" font-style="italic" fill="{INK}">The moon only fills when the streak does.</text>'
             f'<text x="{tx}" y="{PY+PH-10}" font-size="11" letter-spacing="2" fill="{FAINT}">'
             + f'UPDATED {dt.date.today():%d %b %Y}'.upper() + '</text>')

@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Sunset over the town — writes sunset.svg (static art, no data)."""
+"""Writes sunset.svg."""
 import random
 from pathlib import Path
 
@@ -8,7 +8,7 @@ MONO = "'Helvetica Neue',Helvetica,Arial,'Segoe UI',sans-serif"
 SERIF = MONO
 RM = "@media (prefers-reduced-motion: reduce){*{animation:none!important}}"
 W, H = 1200, 360
-G = 250           # street line
+G = 250
 SUN = (660, 200, 84)
 r = random.Random(11)
 SHIFT = ' patternTransform="translate(4 0)"'
@@ -31,7 +31,6 @@ def tone_bands():
 
 def sun():
     x, y, rad = SUN
-    # the classic woodblock sun: solid disc, horizontal paper cuts that widen toward the bottom
     cuts = "".join(f'<rect x="{x-rad}" y="{y + 12 + k*k*2.1:.1f}" width="{2*rad}" height="{1 + k*0.9:.1f}" fill="{PAPER}"/>'
                    for k in range(1, 9))
     return (f'<g class="sun"><circle cx="{x}" cy="{y}" r="{rad+14}" fill="{PAPER}"/>'
@@ -39,7 +38,6 @@ def sun():
 
 
 def cloud(x, y, s, cls, delay):
-    # ink-outlined cumulus, filled with paper so it sits in front of the tone
     lobes = [(0, 0, 26), (30, -12, 30), (64, -4, 24), (90, 6, 18), (-26, 8, 18)]
     fill = "".join(f'<circle cx="{x+dx*s:.0f}" cy="{y+dy*s:.0f}" r="{rr*s:.0f}"/>' for dx, dy, rr in lobes)
     base = f'<rect x="{x-44*s:.0f}" y="{y+6*s:.0f}" width="{150*s:.0f}" height="{20*s:.0f}" rx="{10*s:.0f}"/>'
@@ -51,18 +49,15 @@ def cloud(x, y, s, cls, delay):
 def skyline():
     s = []
     ink = f'fill="{INK}"'
-    # left: house with a tiled roof, pipes and a balcony
     s.append(f'<polygon {ink} points="40,{G} 40,150 30,150 110,104 196,150 186,150 186,{G}"/>')
     s.append(f'<rect {ink} x="120" y="70" width="12" height="60"/><rect {ink} x="112" y="70" width="28" height="8"/>')
     s.append(f'<rect x="62" y="172" width="26" height="30" fill="{PAPER}" opacity=".9"/><rect x="134" y="172" width="26" height="30" fill="{PAPER}" opacity=".9"/>')
     s.append(f'<rect {ink} x="196" y="168" width="60" height="{G-168}"/><path d="M196 196 H262" stroke="{INK}" stroke-width="3"/>'
              + "".join(f'<rect {ink} x="{200+i*9}" y="186" width="3" height="10"/>' for i in range(7)))
-    # utility pole + sagging wires (the town's lazy afternoon)
     s.append(f'<rect {ink} x="300" y="60" width="7" height="{G-60}"/><rect {ink} x="282" y="76" width="44" height="5"/>'
              f'<rect {ink} x="288" y="96" width="32" height="4"/>')
     s.append(f'<g stroke="{INK}" stroke-width="1.6" fill="none"><path d="M120 74 Q 210 110 300 78"/><path d="M304 78 Q 520 128 700 70"/>'
              f'<path d="M304 98 Q 520 150 1000 96"/><path d="M1004 96 Q 1100 120 1176 104"/></g>')
-    # mid: apartment blocks with a few lit windows
     for bx, bw, bh in [(340, 70, 120), (414, 52, 160), (470, 84, 96), (900, 66, 140), (970, 90, 104), (1064, 56, 150)]:
         s.append(f'<rect {ink} x="{bx}" y="{G-bh}" width="{bw}" height="{bh}"/>')
         for wy in range(G - bh + 14, G - 14, 18):
@@ -70,7 +65,6 @@ def skyline():
                 lit = r.random() < .07
                 if r.random() < .55 or lit:
                     s.append(f'<rect x="{wx}" y="{wy}" width="7" height="9" fill="{RED if lit else PAPER}" opacity="{1 if lit else .18}"/>')
-    # the tower: tiered roofs, a drum, an onion dome and a spire
     tx = 800
     s.append(f'<rect {ink} x="{tx-46}" y="170" width="92" height="{G-170}"/>'
              f'<polygon {ink} points="{tx-78},176 {tx},138 {tx+78},176"/>'
@@ -80,11 +74,9 @@ def skyline():
              f'<path {ink} d="M{tx-26} 76 C {tx-30} 40, {tx+30} 40, {tx+26} 76 Z"/>'
              f'<rect {ink} x="{tx-3}" y="18" width="6" height="34"/><circle {ink} cx="{tx}" cy="20" r="5"/>')
     s.append("".join(f'<rect x="{tx-30+i*14}" y="190" width="6" height="12" fill="{PAPER}" opacity=".22"/>' for i in range(5)))
-    # trees: clumped ink canopies
     for cx, cy, n in [(574, 230, 3), (1140, 196, 7), (262, 226, 3)]:
         rr = random.Random(cx)
         s.append("".join(f'<circle {ink} cx="{cx + rr.uniform(-24, 24):.0f}" cy="{cy + rr.uniform(-18, 14):.0f}" r="{rr.uniform(14, 22):.0f}"/>' for _ in range(n)))
-    # street
     s.append(f'<rect {ink} x="24" y="{G}" width="{W-48}" height="10"/>')
     return "".join(s)
 
@@ -107,7 +99,6 @@ def build():
             f'{cloud(160, 78, .8, "cl a", 0)}{cloud(990, 74, .9, "cl b", 0)}{cloud(520, 92, .5, "cl c", 0)}'
             f'{birds()}{skyline()}</g>'
             f'<rect x="20" y="20" width="{W-40}" height="{G-6}" fill="none" stroke="{INK}" stroke-width="4"/>'
-            # caption row
             f'<text x="{W/2}" y="{G+64}" text-anchor="middle" font-family="{SERIF}" font-weight="300" font-size="26" letter-spacing="1" fill="{INK}">Clouds drift. Code ships.</text>'
             f'<text x="24" y="{H-22}" font-family="{MONO}" font-weight="300" font-size="11" letter-spacing="3" fill="{SOFT}">END OF VOLUME 01 · SUNSET</text>'
             f'<text x="{W-84}" y="{H-22}" text-anchor="end" font-family="{MONO}" font-weight="300" font-size="11" letter-spacing="3" fill="{SOFT}">SEE YOU NEXT CHAPTER</text>'

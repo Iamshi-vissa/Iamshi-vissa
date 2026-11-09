@@ -2,8 +2,8 @@ name: Update the autumn moon
 
 on:
   schedule:
-    - cron: "23 */12 * * *"   # twice a day
-  workflow_dispatch:           # "Run workflow" button
+    - cron: "23 */12 * * *"
+  workflow_dispatch:
   push:
     branches: [main]
     paths: [moon_gen.py, .github/workflows/profile-stats.yml]

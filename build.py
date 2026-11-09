@@ -1,6 +1,5 @@
 #!/usr/bin/env python3
-"""Profile README (v4) — same layout as syedhaamidk/syedhaamidk, content from Iamshi-vissa's repos.
-Run `python3 build.py`; upload everything it writes. stats.svg is refreshed by the Action."""
+"""Builds README.md, typing.svg and rule.svg."""
 import base64
 import html
 from pathlib import Path
