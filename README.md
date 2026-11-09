@@ -1,14 +1,11 @@
 <img src="assets/header-v4.svg" alt="Yoi! I am Vamshi" height="63">
 
-<picture><source media="(prefers-color-scheme: dark)" srcset="assets/divider-dark-v3.svg"><img src="assets/divider-light-v3.svg" alt="" width="496"></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/divider-dark-v3.svg"><img src="assets/divider-light-v3.svg" alt="" width="540"></picture>
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/about-dark-v3.svg">
-  <img src="assets/about-light-v3.svg" alt="AI-assisted CS engineer. Design: UI components, interfaces and digital assets. Desktop apps: Rust, Tauri and React. Machine learning: training and shipping models. Linux: Ubuntu and Mint. AI tools: from idea to working app, faster." width="496">
-</picture>
+<img src="assets/about-v5.svg" alt="AI-assisted CS engineer. I build fast, local-first software, from desktop IDEs to ML-powered tools, and design the interfaces that make it feel finished. Desktop apps: Rust, Tauri and React; built a full code editor with built-in runtime management. Machine learning: LightGBM, FAISS and embeddings; shipped a commit-risk model and a document Q&A assistant. Backend: FastAPI, Redis and Docker; built a file converter with 800+ conversion paths. Design: UI components, interfaces and digital assets. Linux: daily driver on Ubuntu and Mint." width="540">
 
 <p align="center">
-  <a href="https://github.com/Iamshi-vissa?tab=repositories"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/explore-dark-v3.svg"><img src="assets/explore-light-v3.svg" alt="Explore repositories" height="34"></picture></a>
+  <a href="https://github.com/Iamshi-vissa?tab=repositories"><img src="assets/explore-v5.svg" alt="Explore repositories" height="34"></a>
 </p>
 
 <p align="center">
