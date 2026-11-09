@@ -97,8 +97,6 @@ I build software that learns and looks good doing it — models trained on real 
 
 ## `03` // Projects
 
-<sub>Newest first.</sub>
-
 <table>
   <thead>
     <tr>
@@ -108,16 +106,16 @@ I build software that learns and looks good doing it — models trained on real 
   </thead>
   <tbody>
     <tr>
+      <td><a href="https://github.com/Iamshi-vissa/CommitRad"><strong>CommitRad</strong></a><br /><sub>Nov 2026</sub></td>
+      <td>Warns which commits are likely to need a bug fix, and why<br /><sub><code>Python · LightGBM · React</code></sub></td>
+    </tr>
+    <tr>
       <td><a href="https://github.com/Iamshi-vissa/Shashin"><strong>Shashin</strong></a><br /><sub>Nov 2026</sub></td>
       <td>A private photo diary: one photo a day, only for friends<br /><sub><code>React · TypeScript · Supabase</code></sub></td>
     </tr>
     <tr>
       <td><a href="https://github.com/Iamshi-vissa/Akshara"><strong>Akshara</strong></a><br /><sub>Nov 2026</sub></td>
       <td>Checks, fixes and creates professional documents (Phase 1 of 9)<br /><sub><code>FastAPI · PostgreSQL · React</code></sub></td>
-    </tr>
-    <tr>
-      <td><a href="https://github.com/Iamshi-vissa/CommitRad"><strong>CommitRad</strong></a><br /><sub>Nov 2026</sub></td>
-      <td>Warns which commits are likely to need a bug fix, and why<br /><sub><code>Python · LightGBM · React</code></sub></td>
     </tr>
     <tr>
       <td><a href="https://github.com/Iamshi-vissa/D-Wall"><strong>D-Wall</strong></a><br /><sub>Sep 2026</sub></td>
