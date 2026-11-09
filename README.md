@@ -1,4 +1,4 @@
-<img src="assets/header-v3.svg" alt="Yoi! I am Vamshi" height="63">
+<img src="assets/header-v4.svg" alt="Yoi! I am Vamshi" height="63">
 
 <picture><source media="(prefers-color-scheme: dark)" srcset="assets/divider-dark-v3.svg"><img src="assets/divider-light-v3.svg" alt="" width="496"></picture>
 
