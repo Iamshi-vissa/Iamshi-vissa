@@ -2,11 +2,11 @@
 
 **AI-assisted CSE engineer**
 
-### What I build
-
-**I design digital components and assets, and build desktop applications.**<br>
-**I have built and trained machine learning models.**<br>
-**Most of my projects are built with AI tools.**
+- **Design digital components, interfaces and assets**
+- **Build desktop applications with Rust, Tauri and React**
+- **Train and ship machine learning models into real tools**
+- **Work comfortably in Linux environments**
+- **Use AI tools to build faster, from idea to working app**
 
 **[Explore my projects →](https://github.com/Iamshi-vissa?tab=repositories)**
 
