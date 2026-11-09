@@ -3,12 +3,12 @@
 <picture><source media="(prefers-color-scheme: dark)" srcset="assets/divider-dark-v8.svg"><img src="assets/divider-light-v8.svg" alt="" width="100%"></picture>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/about-dark-v9.svg">
-  <img src="assets/about-light-v9.svg" alt="AI-assisted CS engineer. I build fast, local-first software, from desktop IDEs to ML-powered tools, and design the interfaces that make it feel finished. I build desktop apps with Rust, Tauri and React, including a full code editor with built-in runtime management. In machine learning, I work with LightGBM, FAISS and embeddings, and have shipped a commit-risk model and a document Q&A assistant. On the backend, I use FastAPI, Redis and Docker, and built a file converter with 800+ conversion paths. I design UI components, interfaces and digital assets. Every day, I work in Linux environments like Ubuntu and Mint." width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/about-dark-v10.svg">
+  <img src="assets/about-light-v10.svg" alt="AI-assisted CS engineer. I build fast, local-first software, from desktop IDEs to ML-powered tools, and design the interfaces that make it feel finished. I build desktop apps with Rust, Tauri and React, including a full code editor with built-in runtime management. In machine learning, I work with LightGBM, FAISS and embeddings, and have shipped a commit-risk model and a document Q&A assistant. On the backend, I use FastAPI, Redis and Docker, and built a file converter with 800+ conversion paths. I design UI components, interfaces and digital assets. Every day, I work in Linux environments like Ubuntu and Mint." width="100%">
 </picture>
 
 <p align="center">
-  <a href="https://github.com/Iamshi-vissa?tab=repositories"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/explore-dark-v9.svg"><img src="assets/explore-light-v9.svg" alt="Explore repositories" height="34"></picture></a>
+  <a href="https://github.com/Iamshi-vissa?tab=repositories"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/explore-dark-v10.svg"><img src="assets/explore-light-v10.svg" alt="Explore repositories" height="34"></picture></a>
 </p>
 
 <p align="center">
