@@ -33,34 +33,27 @@
 
 ## `01` // The character
 
-I train models, design digital assets, and write the software that puts both in front of people.
+I build software that learns and looks good doing it — models trained on real data, digital assets designed with care, and the code that brings them together. I enjoy working where machine learning meets visual craft, turning rough ideas into things people want to come back to.
 
 <table>
-  <thead>
-    <tr>
-      <th width="22%">Skill</th>
-      <th>What I do</th>
-      <th width="22%">Where to see it</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><strong>Training models</strong></td>
-      <td>Gradient-boosted models on real-world data, embeddings and retrieval, and the evaluation work that tells you whether a model is actually right.</td>
-      <td><a href="https://github.com/Iamshi-vissa/CommitRad">CommitRad</a> · <a href="https://github.com/Iamshi-vissa/Docent">Docent</a></td>
-    </tr>
-    <tr>
-      <td><strong>Designing digital assets</strong></td>
-      <td>Visual assets, interfaces and motion, designed together with the product rather than added at the end.</td>
-      <td><a href="https://github.com/Iamshi-vissa/Shashin">Shashin</a> · <a href="https://github.com/Iamshi-vissa/CoKo">CoKo</a></td>
-    </tr>
-    <tr>
-      <td><strong>Software development</strong></td>
-      <td>End-to-end products: Python services, TypeScript frontends, and native desktop apps in Rust and Electron.</td>
-      <td><a href="https://github.com/Iamshi-vissa/X-Editor">X-Editor</a> · <a href="https://github.com/Iamshi-vissa/Hakobu">Hakobu</a></td>
-    </tr>
-  </tbody>
+  <tr>
+    <td width="33%" align="center">
+      <strong>◇ MODELS</strong><br /><br />
+      Training, evaluation<br />&amp; retrieval on real data.
+    </td>
+    <td width="33%" align="center">
+      <strong>// DESIGN</strong><br /><br />
+      Digital assets, interfaces<br />&amp; quiet motion.
+    </td>
+    <td width="33%" align="center">
+      <strong>+ SOFTWARE</strong><br /><br />
+      Full-stack products,<br />desktop apps &amp; tooling.
+    </td>
+  </tr>
 </table>
+
+> **CURRENT ARC**<br />
+> Teaching models to see what matters, and designing what people see.
 
 <br />
 
@@ -73,14 +66,8 @@ I train models, design digital assets, and write the software that puts both in 
   <a href="https://nextjs.org/"><img src="https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=FFFFFF" alt="Next.js" /></a>
   <a href="https://fastapi.tiangolo.com/"><img src="https://img.shields.io/badge/FastAPI-000000?style=flat-square&logo=fastapi&logoColor=FFFFFF" alt="FastAPI" /></a>
   <a href="https://www.rust-lang.org/"><img src="https://img.shields.io/badge/Rust-000000?style=flat-square&logo=rust&logoColor=FFFFFF" alt="Rust" /></a>
-  <a href="https://tauri.app/"><img src="https://img.shields.io/badge/Tauri-000000?style=flat-square&logo=tauri&logoColor=FFFFFF" alt="Tauri" /></a>
-  <a href="https://www.electronjs.org/"><img src="https://img.shields.io/badge/Electron-000000?style=flat-square&logo=electron&logoColor=FFFFFF" alt="Electron" /></a>
-  <a href="https://www.postgresql.org/"><img src="https://img.shields.io/badge/PostgreSQL-000000?style=flat-square&logo=postgresql&logoColor=FFFFFF" alt="PostgreSQL" /></a>
-  <a href="https://supabase.com/"><img src="https://img.shields.io/badge/Supabase-000000?style=flat-square&logo=supabase&logoColor=FFFFFF" alt="Supabase" /></a>
-  <a href="https://redis.io/"><img src="https://img.shields.io/badge/Redis-000000?style=flat-square&logo=redis&logoColor=FFFFFF" alt="Redis" /></a>
+  <a href="https://tailwindcss.com/"><img src="https://img.shields.io/badge/Tailwind%20CSS-000000?style=flat-square&logo=tailwindcss&logoColor=FFFFFF" alt="Tailwind CSS" /></a>
   <a href="https://www.docker.com/"><img src="https://img.shields.io/badge/Docker-000000?style=flat-square&logo=docker&logoColor=FFFFFF" alt="Docker" /></a>
-  <a href="https://tailwindcss.com/"><img src="https://img.shields.io/badge/Tailwind-000000?style=flat-square&logo=tailwindcss&logoColor=FFFFFF" alt="Tailwind" /></a>
-  <a href="https://duckdb.org/"><img src="https://img.shields.io/badge/DuckDB-000000?style=flat-square&logo=duckdb&logoColor=FFFFFF" alt="DuckDB" /></a>
 </div>
 
 <table>
@@ -92,20 +79,16 @@ I train models, design digital assets, and write the software that puts both in 
   </thead>
   <tbody>
     <tr>
-      <td><strong>Model</strong></td>
-      <td>LightGBM · pandas · FAISS · sentence-transformers · OpenCV · DuckDB</td>
+      <td><strong>Train</strong></td>
+      <td>Python · LightGBM · pandas · sentence-transformers · FAISS · OpenCV</td>
     </tr>
     <tr>
-      <td><strong>Design</strong></td>
-      <td>Visual assets · interfaces · motion</td>
+      <td><strong>Shape</strong></td>
+      <td>Digital assets · interfaces · motion · Tailwind · responsive interaction design</td>
     </tr>
     <tr>
       <td><strong>Build</strong></td>
-      <td>Python · FastAPI · TypeScript · React · Next.js · Vite</td>
-    </tr>
-    <tr>
-      <td><strong>Ship</strong></td>
-      <td>Rust · Tauri v2 · Electron · PostgreSQL · Redis · Docker</td>
+      <td>TypeScript · React · Next.js · FastAPI · Rust · Tauri · Docker</td>
     </tr>
   </tbody>
 </table>

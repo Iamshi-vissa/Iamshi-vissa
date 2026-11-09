@@ -81,10 +81,7 @@ def badge(label, logo="", url=""):
 STACK = [("Python", "python", "https://www.python.org/"), ("TypeScript", "typescript", "https://www.typescriptlang.org/"),
          ("React", "react", "https://react.dev/"), ("Next.js", "nextdotjs", "https://nextjs.org/"),
          ("FastAPI", "fastapi", "https://fastapi.tiangolo.com/"), ("Rust", "rust", "https://www.rust-lang.org/"),
-         ("Tauri", "tauri", "https://tauri.app/"), ("Electron", "electron", "https://www.electronjs.org/"),
-         ("PostgreSQL", "postgresql", "https://www.postgresql.org/"), ("Supabase", "supabase", "https://supabase.com/"),
-         ("Redis", "redis", "https://redis.io/"), ("Docker", "docker", "https://www.docker.com/"),
-         ("Tailwind", "tailwindcss", "https://tailwindcss.com/"), ("DuckDB", "duckdb", "https://duckdb.org/")]
+         ("Tailwind CSS", "tailwindcss", "https://tailwindcss.com/"), ("Docker", "docker", "https://www.docker.com/")]
 
 ARCS = [  # repo, title, one line, stack
     ("CommitRad", "CommitRad", "Scores every commit — even unpushed ones — for the risk it needs a bug fix, and says why. LightGBM trained on 27,384 commits.", "Python · LightGBM · DuckDB · FastAPI · React"),
@@ -138,34 +135,27 @@ def readme():
 
 ## `01` // The character
 
-I train models, design digital assets, and write the software that puts both in front of people.
+I build software that learns and looks good doing it — models trained on real data, digital assets designed with care, and the code that brings them together. I enjoy working where machine learning meets visual craft, turning rough ideas into things people want to come back to.
 
 <table>
-  <thead>
-    <tr>
-      <th width="22%">Skill</th>
-      <th>What I do</th>
-      <th width="22%">Where to see it</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><strong>Training models</strong></td>
-      <td>Gradient-boosted models on real-world data, embeddings and retrieval, and the evaluation work that tells you whether a model is actually right.</td>
-      <td><a href="{gh}/CommitRad">CommitRad</a> · <a href="{gh}/Docent">Docent</a></td>
-    </tr>
-    <tr>
-      <td><strong>Designing digital assets</strong></td>
-      <td>Visual assets, interfaces and motion, designed together with the product rather than added at the end.</td>
-      <td><a href="{gh}/Shashin">Shashin</a> · <a href="{gh}/CoKo">CoKo</a></td>
-    </tr>
-    <tr>
-      <td><strong>Software development</strong></td>
-      <td>End-to-end products: Python services, TypeScript frontends, and native desktop apps in Rust and Electron.</td>
-      <td><a href="{gh}/X-Editor">X-Editor</a> · <a href="{gh}/Hakobu">Hakobu</a></td>
-    </tr>
-  </tbody>
+  <tr>
+    <td width="33%" align="center">
+      <strong>◇ MODELS</strong><br /><br />
+      Training, evaluation<br />&amp; retrieval on real data.
+    </td>
+    <td width="33%" align="center">
+      <strong>// DESIGN</strong><br /><br />
+      Digital assets, interfaces<br />&amp; quiet motion.
+    </td>
+    <td width="33%" align="center">
+      <strong>+ SOFTWARE</strong><br /><br />
+      Full-stack products,<br />desktop apps &amp; tooling.
+    </td>
+  </tr>
 </table>
+
+> **CURRENT ARC**<br />
+> Teaching models to see what matters, and designing what people see.
 
 <br />
 
@@ -184,20 +174,16 @@ I train models, design digital assets, and write the software that puts both in 
   </thead>
   <tbody>
     <tr>
-      <td><strong>Model</strong></td>
-      <td>LightGBM · pandas · FAISS · sentence-transformers · OpenCV · DuckDB</td>
+      <td><strong>Train</strong></td>
+      <td>Python · LightGBM · pandas · sentence-transformers · FAISS · OpenCV</td>
     </tr>
     <tr>
-      <td><strong>Design</strong></td>
-      <td>Visual assets · interfaces · motion</td>
+      <td><strong>Shape</strong></td>
+      <td>Digital assets · interfaces · motion · Tailwind · responsive interaction design</td>
     </tr>
     <tr>
       <td><strong>Build</strong></td>
-      <td>Python · FastAPI · TypeScript · React · Next.js · Vite</td>
-    </tr>
-    <tr>
-      <td><strong>Ship</strong></td>
-      <td>Rust · Tauri v2 · Electron · PostgreSQL · Redis · Docker</td>
+      <td>TypeScript · React · Next.js · FastAPI · Rust · Tauri · Docker</td>
     </tr>
   </tbody>
 </table>
