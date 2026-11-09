@@ -1,6 +1,6 @@
 <img src="assets/header.svg" alt="Yoi! I am Vamshi" height="55">
 
-**AI-assisted CSE engineer**
+**AI-assisted CS engineer**
 
 - **Design digital components, interfaces and assets**
 - **Build desktop applications with Rust, Tauri and React**
