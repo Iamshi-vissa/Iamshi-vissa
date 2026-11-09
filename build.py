@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 """Profile README (v4) — same layout as syedhaamidk/syedhaamidk, content from Iamshi-vissa's repos.
 Run `python3 build.py`; upload everything it writes. stats.svg is refreshed by the Action."""
+import base64
 import html
 from pathlib import Path
 from urllib.parse import quote
@@ -57,15 +58,6 @@ def rule():
     return svg(1200, 2, '<rect width="1200" height="2" fill="#FFF"/>', "")
 
 
-def wave():
-    W, H = 1200, 90
-    d = (f"M0 {H} L0 40 C 150 10, 300 10, 450 38 S 750 70, 900 40 S 1100 10, 1200 30 L1200 {H} Z")
-    d2 = (f"M0 {H} L0 55 C 200 30, 350 70, 600 52 S 950 25, 1200 50 L1200 {H} Z")
-    return svg(W, H, f'<path d="{d2}" fill="#FFF" fill-opacity=".35"/><path class="w" d="{d}" fill="#FFF"/>', "",
-               ".w{animation:w 6s ease-in-out infinite alternate}@keyframes w{to{transform:translateX(-40px)}}")
-
-
-import base64
 LI_MARK = ('<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><rect width="24" height="24" rx="3" fill="#FFF"/>'
            '<rect x="5" y="9.5" width="3" height="9.5" fill="#000"/><circle cx="6.5" cy="6.3" r="1.8" fill="#000"/>'
            '<path d="M10 9.5h2.9v1.4c.5-.9 1.6-1.6 3.1-1.6 2.6 0 3.5 1.6 3.5 4.3V19h-3v-4.8c0-1.3-.3-2.2-1.5-2.2s-2 .9-2 2.3V19h-3z" fill="#000"/></svg>')
@@ -83,23 +75,8 @@ STACK = [("Python", "python", "https://www.python.org/"), ("TypeScript", "typesc
          ("FastAPI", "fastapi", "https://fastapi.tiangolo.com/"), ("Rust", "rust", "https://www.rust-lang.org/"),
          ("Tailwind CSS", "tailwindcss", "https://tailwindcss.com/"), ("Docker", "docker", "https://www.docker.com/")]
 
-ARCS = [  # repo, title, one line, stack
-    ("CommitRad", "CommitRad", "Scores every commit — even unpushed ones — for the risk it needs a bug fix, and says why. LightGBM trained on 27,384 commits.", "Python · LightGBM · DuckDB · FastAPI · React"),
-    ("Hakobu", "Hakobu", "Universal file converter: detects a file's real type from its bytes. ~50 formats, 800+ paths, sandboxed workers.", "FastAPI · Redis/RQ · Next.js · Docker"),
-    ("AKSHARA", "AKSHARA", "Document engineering platform to create, inspect and validate DOCX, PDF and PPTX, with immutable versioned storage.", "FastAPI · PostgreSQL · Redis · React"),
-    ("X-Editor", "X-Editor", "Local-first desktop IDE with built-in runtime management for Node, Python and Rust.", "Rust · Tauri v2 · React · Monaco"),
-    ("Docent", "Docent", "Multi-document Q&amp;A that answers only from your files, citing file and page.", "Python · FAISS · FastAPI · Next.js"),
-    ("Shashin", "Shashin", "A private photo diary — one photo a day, visible only to friends, collected into weekly albums.", "React · TypeScript · Supabase"),
-    ("X-WALL", "X-WALL", "Scam QR-code and payment-link analyzer: see where a code really sends you before you pay.", "FastAPI · OpenCV · React"),
-    ("CoKo", "CoKo", "An animated desk buddy that tracks your sessions, focus and battery — and reacts to them.", "Electron · JavaScript"),
-]
-
-
 def readme():
     gh = f"https://github.com/{USER}"
-    arcs = "\n".join(
-        f'    <tr>\n      <td><a href="{gh}/{r}"><strong>{t}</strong></a></td>\n      <td>{d}<br /><sub><code>{s}</code></sub></td>\n    </tr>'
-        for r, t, d, s in ARCS)
     return f"""<div align="center">
 
   <a href="{gh}">

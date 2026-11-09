@@ -1,6 +1,5 @@
 #!/usr/bin/env python3
 """Sunset over the town — writes sunset.svg (static art, no data)."""
-import math
 import random
 from pathlib import Path
 
