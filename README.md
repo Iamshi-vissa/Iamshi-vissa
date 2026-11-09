@@ -95,7 +95,56 @@ I build software that learns and looks good doing it — models trained on real 
 
 <br />
 
-## `03` // Autumn moon
+## `03` // Projects
+
+<sub>Newest first.</sub>
+
+<table>
+  <thead>
+    <tr>
+      <th width="24%">Project</th>
+      <th>What it is</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><a href="https://github.com/Iamshi-vissa/Shashin"><strong>Shashin</strong></a><br /><sub>Nov 2026</sub></td>
+      <td>A private photo diary: one photo a day, only for friends<br /><sub><code>React · TypeScript · Supabase</code></sub></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Iamshi-vissa/Akshara"><strong>Akshara</strong></a><br /><sub>Nov 2026</sub></td>
+      <td>Checks, fixes and creates professional documents (Phase 1 of 9)<br /><sub><code>FastAPI · PostgreSQL · React</code></sub></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Iamshi-vissa/CommitRad"><strong>CommitRad</strong></a><br /><sub>Nov 2026</sub></td>
+      <td>Warns which commits are likely to need a bug fix, and why<br /><sub><code>Python · LightGBM · React</code></sub></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Iamshi-vissa/D-Wall"><strong>D-Wall</strong></a><br /><sub>Sep 2026</sub></td>
+      <td>Checks QR codes and payment links for scams before you pay<br /><sub><code>FastAPI · OpenCV · React</code></sub></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Iamshi-vissa/CoKo"><strong>CoKo</strong></a><br /><sub>Sep 2026</sub></td>
+      <td>An animated desk buddy that tracks your day<br /><sub><code>Electron · JavaScript</code></sub></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Iamshi-vissa/Hakobu"><strong>Hakobu</strong></a><br /><sub>Aug 2026</sub></td>
+      <td>A self-hosted file converter for about 50 formats<br /><sub><code>FastAPI · Redis · Next.js</code></sub></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Iamshi-vissa/Docent"><strong>Docent</strong></a><br /><sub>Aug 2026</sub></td>
+      <td>Ask questions about your documents, with page citations<br /><sub><code>Python · FAISS · Next.js</code></sub></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Iamshi-vissa/X-Editor"><strong>X-Editor</strong></a><br /><sub>Jul 2026</sub></td>
+      <td>A desktop code editor that manages your runtimes<br /><sub><code>Rust · Tauri · React</code></sub></td>
+    </tr>
+  </tbody>
+</table>
+
+<br />
+
+## `04` // Autumn moon
 
 <div align="center">
   <img src="moon.svg" width="100%" alt="Autumn moon: the moon waxes with my current commit streak and is full only when it matches my longest" />
@@ -103,7 +152,7 @@ I build software that learns and looks good doing it — models trained on real 
 
 <br />
 
-## `04` // Next page
+## `05` // Next page
 
 <div align="center">
   <a href="https://github.com/Iamshi-vissa?tab=repositories"><img src="https://img.shields.io/badge/Explore%20my%20GitHub-000000?style=flat-square&logo=github&logoColor=FFFFFF" alt="Explore my GitHub" /></a>
